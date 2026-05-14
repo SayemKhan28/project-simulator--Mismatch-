@@ -1,0 +1,7 @@
+Card Serial: T-01
+Task: Registration System
+Assigned To: Sanjiba Anam Ahona
+Status: Completed
+
+Description:
+Created registration page with validation and authentication.
