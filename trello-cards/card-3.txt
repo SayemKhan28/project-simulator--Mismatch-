@@ -1,0 +1,30 @@
+FR-Public & Private University Manager - The public & private manager should be able to set admission requirements so that student eligibility can be evaluated correctly.
+  Admission Requirement Setup [Public & Private University Manager]
+
+
+
+SSC GPA input field
+
+(mandatory)
+
+HSC GPA input field
+
+(mandatory)
+
+Additional Requirements text area
+
+Save button
+
+
+
+As a manager, I want to set admission criteria so that eligibility can be checked .
+
+
+
+When SSC GPA and HSC GPA are invalid, the system must show errors for both.
+
+When SSC GPA is invalid but HSC GPA is valid, the system must show SSC GPA error.
+
+When SSC GPA is valid but HSC GPA is invalid, the system must show HSC GPA error.
+
+When both inputs are valid, the system must save successfully.
