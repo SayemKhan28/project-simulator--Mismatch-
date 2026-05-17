@@ -1,0 +1,17 @@
+FR-Applicant - The applicant should be able to register so that they can create an account and access the system.
+
+User Registration [Applicant]
+Signup Form
+Name
+Email
+password
+As a user, I want to register so that I can access the system
+When the name, email, and password are all invalid, the system must show validation errors for all fields.
+When the name and email are invalid but the password is valid, the system must show errors for name and email.
+When the name and password are invalid but the email is valid, the system must show errors for name and password.
+When the email and password are invalid but the name is valid, the system must show errors for email and password.
+When only the name is valid and the email and password are invalid, the system must show errors for email and password.
+When only the email is valid and the name and password are invalid, the system must show errors for name and password.
+When only the password is valid and the name and email is invalid, the system must show errors for name and email.
+When the name, email, and password are all valid, the system must successfully create the account.
+
