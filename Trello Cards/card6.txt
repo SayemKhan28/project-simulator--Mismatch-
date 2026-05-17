@@ -1,0 +1,20 @@
+FR-Applicant - The applicant should be able to view application history so that they can track all previous applications and activities.
+
+Application History [Applicant]
+DESCRIPTION:
+User dashboard overview
+Application history list
+Application status view
+Status timeline section
+Notification panel
+Navigation buttons (Dashboard / History / Status / Notifications)
+Empty state messages (if no data available)
+As a user, I want to view my application history and related application information so that I can track my activities, status updates, and notifications in one place.
+When application history does not exist, application status does not exist, and notification data does not exist, the system must show an empty dashboard state.
+When application history does not exist but application status and notifications exist, the system must display only status and notification sections.
+When application history exists but status and notifications do not exist, the system must display only the application history list.
+When application history and status exist but notifications do not exist, the system must display history and status sections only.
+When application history and notifications exist but status does not exist, the system must display history and notifications only.
+When status exists but application history and notifications do not exist, the system must display status section only.
+When all (application history, status, and notifications) exist, the system must display the full dashboard with all sections.
+When any data is partially missing, the system must gracefully show available sections with appropriate empty state messages.

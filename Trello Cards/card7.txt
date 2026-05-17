@@ -1,0 +1,18 @@
+FR-Applicant- The applicant should be able to receive notifications so that they can stay updated about system and application updates.
+
+Notifications [Applicant]
+DESCRIPTION:
+Notification panel
+Alert popup screen
+Email notification display
+View notification screen
+Notification history page
+Notification list section
+Back button
+
+As a user, I want notifications so that I can stay updated
+
+When no notification exists and no notification is read, the system must show an empty notification state message.
+When no notification exists but unread/read status is triggered, the system must still show an empty state with no notifications.
+When notifications exist but are unread, the system must display all notifications marked as unread.
+When notifications exist and are read, the system must display notifications in the history view with read status updated.

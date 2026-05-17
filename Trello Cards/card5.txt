@@ -1,0 +1,18 @@
+FR-Applicant -The applicant should be able to apply to a university so that they can submit their admission application.
+
+Application Submission [Applicant]
+DESCRIPTION:
+University name display
+University logo/image (optional)
+University basic information section
+Apply button
+External application link trigger (inside Apply button)
+Back button
+Information message (“You will be redirected to the university application page”)
+
+As a user, I want to apply to a university so that I can proceed to the official university application page and complete my application process.
+
+When the Apply button is not clicked and the university application link is invalid, the system must not redirect the user and must show an error or inactive state.
+When the Apply button is not clicked and the university application link is valid, the system must wait for user action and show no redirection.
+When the Apply button is clicked and the university application link is invalid, the system must show an error message and must not redirect the user.
+When the Apply button is clicked and the university application link is valid, the system must redirect the user to the official university application page successfully.

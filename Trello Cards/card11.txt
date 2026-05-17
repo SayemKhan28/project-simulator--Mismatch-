@@ -1,0 +1,15 @@
+NFR-Applicant- The system should maintain high performance so that pages load quickly and user actions are processed without delay.
+
+Performance [Applicant]
+DESCRIPTION:
+Loading indicator (spinner/progress bar)
+Page content display area
+Error/timeout message display
+Retry/refresh option
+
+As a user, I want the system to respond quickly so that I can use features without delay.
+
+When the system response is slow, and data fails to load, the system must show a timeout or error message.
+When the system response is slow but data loads successfully, the system must show a loading indicator until content appears.
+When the system response is fast, but data fails to load, the system must show an error message immediately.
+When the system response is fast and data loads successfully, the system must display content without delay.
