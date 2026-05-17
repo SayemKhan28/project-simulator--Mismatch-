@@ -1,0 +1,46 @@
+FR-Admin - The  Admin can manage application data so that the Admin can view history and activity of applications
+
+Description
+Edit
+Manage Notifications (Create/Send/Delete)
+
+[Admin]
+
+ 
+
+Notification title input (mandatory)
+
+Notification message input (mandatory)
+
+Recipient selection (All users / specific users) (mandatory)
+
+Create notification button
+
+Send notification button
+
+Delete notification button
+
+Notification list display
+
+Status display (Sent / Draft / Deleted)
+
+Success/error message display
+
+Back / dashboard button
+
+ 
+
+ 
+
+As an admin, I want to manage notifications so that I can create, send, and delete system notifications for users.
+
+ 
+
+When mandatory notification data (title, message, recipient) is invalid and the action is unsuccessful, the system should show validation errors and must not perform the operation.
+
+When mandatory notification data is invalid but the action is attempted, the system should prevent creation/sending/deletion and show appropriate error messages.
+
+When mandatory notification data is valid but the action fails due to a system issue, the system should show an error message and must not update notifications.
+
+When mandatory notification data is valid and the action (create/send/delete) is successful, the system should update the notification list and show the correct status
+
