@@ -1,0 +1,29 @@
+FR-Admin - The admin should  log in using valid credentials so that secure access to the system is ensured.
+
+Admin Login
+
+[Admin]
+
+ 
+
+Email input field (mandatory)
+
+Password input field (mandatory)
+
+Login button
+
+Error message display
+
+Success/redirect to admin dashboard
+
+As an admin, I want to log in so that I can access admin features
+
+When the email (mandatory) and password (mandatory) are both invalid or empty, the system should show validation errors for both fields.
+
+When the email (mandatory) is invalid or empty, but the password is valid, the system should show an email validation error only.
+
+When the email (mandatory) is valid but the password (mandatory) is invalid or empty, the system should show a password validation error only.
+
+When the email and password (both mandatory) are valid, the system should successfully log in the admin and redirect to the admin dashboard.
+
+
