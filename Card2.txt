@@ -1,0 +1,32 @@
+NFR-Admin - The system should ensure availability so that the system remains accessible to the Admin with minimal downtime and reliable access when needed.
+Availability
+
+[Admin]
+
+ 
+
+System access/login entry screen
+
+Service status message (Online / Offline)
+
+Maintenance page screen
+
+Error/downtime message display
+
+Retry/refresh button
+
+Availability status indicator (optional)
+
+As an admin, I want to access the system at any time so that I can use the platform whenever needed without interruption.
+
+ 
+
+When the system is offline and the user tries to access during normal usage time, the system should show a downtime or error message.
+
+When the system is offline and the user tries to access during maintenance time, the system should show a maintenance page.
+
+When the system is online but under maintenance conditions, the system should restrict access and show maintenance notification.
+
+When the system is online and no maintenance is active, the system should allow full access to all features.
+
+
