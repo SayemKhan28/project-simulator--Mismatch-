@@ -1,0 +1,25 @@
+NFR-Public & Private University Manager- The system should ensure data integrity so that all university information remains accurate, consistent and free from duplication.
+
+  Data Integrity
+
+[Public & Private University Manager]
+
+
+
+Database
+
+(mandatory)
+
+Add / Edit Data Form
+
+Save / Update Button
+
+As a manager, I want to ensure accurate data in the system so that users can access reliable and correct information.
+
+
+
+
+
+The system should prevent duplicate data entries in the database.
+
+The system should maintain consistent data across all modules and operations
