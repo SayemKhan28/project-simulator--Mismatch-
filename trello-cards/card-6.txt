@@ -1,0 +1,30 @@
+FR- Public & Private University Manager-The public & private manager should be able to provide application links so that students can apply to universities through official pages.
+  Applicant View [Public & Private University Manager]
+
+
+
+Applicant list table
+
+Profile view button
+
+Filter dropdown
+
+(mandatory)
+
+Search input field
+
+(mandatory)
+
+
+
+As a manager, I want to view applicants so that I can evaluate them
+
+
+
+When Filter Option and Search Keyword are invalid, the system must show no results.
+
+When Filter Option is invalid but Search Keyword is valid, the system must show unfiltered results.
+
+When Filter Option is valid but Search Keyword is invalid, the system must show filtered results.
+
+When both are valid, the system must show filtered and searched results.
