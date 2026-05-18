@@ -1,0 +1,24 @@
+NFR-Public & Private University Manager -The system should ensure compatibility so that it works properly across all major browsers and devices.
+  Compatibility
+
+[Public & Private University Manager]
+
+
+
+Web
+
+(mandatory)
+
+Browser Compatibility View
+
+
+
+As a manager,
+
+I want to ensure website works on all devices
+
+
+
+The system should work on all major web browsers.
+
+The system should be mobile responsive across different screen sizes and devices.
