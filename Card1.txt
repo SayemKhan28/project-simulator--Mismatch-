@@ -1,0 +1,30 @@
+NFR-Admin - The system should ensure scalability so that it can handle increasing numbers of universities, applicants, and data without affecting system performance.
+Scalability
+
+[Admin]
+
+ 
+
+Dashboard / main system interface
+
+Data loading sections (tables, lists) (mandatory)
+
+Loading indicator under high traffic
+
+Error/fallback screen for overload
+
+System performance status indicator (optional)
+
+Background resource scaling (system-level)
+
+As an admin, I want to use the system even when the number of users increases so that the system remains stable under high load.
+
+ 
+
+When system load is high and the number of users is high, the system should maintain stable performance or show controlled loading behavior.
+
+When system load is high but the number of users is low, the system should still operate without failure.
+
+When system load is normal but the number of users is high, the system should scale resources to handle increased traffic.
+
+When system load is normal and the number of users is low, the system should operate smoothly with optimal performance.
