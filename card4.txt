@@ -1,0 +1,32 @@
+NFR-Admin - The system should ensure performance so that all operations such as login, data retrieval, and updates are executed within an acceptable response time.
+Performance
+
+[Admin]
+
+ 
+
+Loading indicator
+
+Data display sections (dashboard, tables, lists) (mandatory system output)
+
+Response time monitoring (system-level)
+
+Error/timeout message screen
+
+Retry/refresh button
+
+Performance status indicator (optional)
+
+As an admin, I want to use the system with a fast response time so that all operations are performed efficiently without delay.
+
+ 
+
+When the system response is slow and data fails to load, the system should show a timeout or error message.
+
+When the system response is slow but data loads successfully, the system should show a loading indicator until the content appears.
+
+When the system response is fast, but data fails to load, the system should show an error message immediately.
+
+When the system response is fast and data loads successfully, the system should display all content without delay.
+
+
