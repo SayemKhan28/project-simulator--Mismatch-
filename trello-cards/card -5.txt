@@ -1,0 +1,29 @@
+FR- Public & Private University Manager -The public & private manager should be able to manage tuition fees so that students can plan their financial budget before applying.
+
+  Tuition Fee Management [Public & Private University Manager]
+
+Department selection dropdown
+
+(mandatory)
+
+Fee Amount input field
+
+(mandatory)
+
+Scholarship Information text area
+
+Update button
+
+
+
+As a manager, I want to update tuition fees so that students can plan budget.
+
+
+
+When Department and Fee Amount are invalid, the system must show errors for both.
+
+When Department is invalid but Fee Amount is valid, the system must show Department error.
+
+When Department is valid but Fee Amount is invalid, the system must show Fee error.
+
+When both inputs are valid, the system must save successfully.
