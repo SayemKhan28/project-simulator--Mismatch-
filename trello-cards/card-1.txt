@@ -1,0 +1,55 @@
+FR-Public & Private University Manager -The public & private manager should be able to manage university profile so that students can see accurate and updated information.
+
+University Profile Management [Public & Private University Manager]
+
+
+
+University Name input field
+
+(mandatory)
+
+Location input field
+
+(mandatory)
+
+Contact Info input field
+
+(mandatory)
+
+Description text area
+
+Save button
+
+Update button
+
+
+
+
+
+As a manager, I want to manage university profile so that students can see accurate information.
+
+
+
+When University Name, Location, and Contact Info are all invalid, the system must show validation errors for all fields.
+
+When University Name and Location are invalid but Contact Info is valid, the system must show errors for Name and Location.
+
+When University Name and Contact Info are invalid but Location is valid, the system must show errors for Name and Contact Info.
+
+When Location and Contact Info are invalid but University Name is valid, the system must show errors for Location and Contact Info.
+
+When only University Name is valid and others are invalid, the system must show errors for Location and Contact Info.
+
+When only Location is valid and others are invalid, the system must show errors for Name and Contact Info.
+
+When only Contact Info is valid and others are invalid, the system must show errors for Name and Location.
+
+When all inputs are valid, the system must successfully save/update the profile
+
+Card Serial: T-01
+Task: Registration System
+Assigned To: Sanjiba Anam Ahona
+Status: Completed
+
+Description:
+Created registration page with validation and authentication.

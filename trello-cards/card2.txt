@@ -1,0 +1,33 @@
+FR-Public & Private University Manager -The public & private manager should be able to manage departments so that students can explore available programs.
+
+Department Management [Public & Private University Manager]
+
+
+
+
+
+Department Name input field (mandatory)
+
+Program List input field
+
+(mandatory)
+
+Add button
+
+Edit button
+
+Delete button
+
+
+
+As a manager, I want to manage departments so that students can explore programs
+
+
+
+When Department Name and Program List are invalid, the system must show errors for both.
+
+When Department Name is invalid but Program List is valid, the system must show error for Department Name.
+
+When Program List is invalid but Department Name is valid, the system must show error for Program List.
+
+When both inputs are valid, the system must successfully add/update/delete department

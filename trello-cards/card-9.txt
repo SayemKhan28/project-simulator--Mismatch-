@@ -1,0 +1,22 @@
+NFR- Public & Private University Manager- The system should ensure backup and recovery so that data can be restored in case of failure or loss.
+  Backup
+
+[Public & Private University Manager]
+
+
+
+System
+
+(mandatory)
+
+Recovery Confirmation Message
+
+
+
+As a manager, I want to ensure data safety so that all university information is protected from loss, corruption, or unauthorized access.
+
+
+
+The system should perform regular backups of data.
+
+The system should provide a reliable recovery system to restore data when needed.

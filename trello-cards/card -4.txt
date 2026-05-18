@@ -1,0 +1,34 @@
+FR- Public & Private University Manager - The public & private manager should be able to manage admission timeline so that students can view correct deadlines and schedules.
+Admission Timeline Management [Public & Private University Manager]
+
+
+
+Start Date picker
+
+(mandatory)
+
+End Date picker
+
+(mandatory)
+
+Exam Date picker
+
+Result Date picker
+
+Save button
+
+
+
+
+
+As a manager, I want to manage admission timeline so that students know deadlines
+
+
+
+When Start Date and End Date are invalid, the system must show errors for both.
+
+When Start Date is invalid but End Date is valid, the system must show Start Date error.
+
+When Start Date is valid but End Date is invalid, the system must show End Date error.
+
+When both are valid, the system must save successfully and ensure End Date is not earlier than Start Date.
