@@ -1,0 +1,38 @@
+NFR-Admin - The system should ensure security so that only authenticated and authorized Admin users can access and manage system data and features.
+Security
+
+[Admin]
+
+ 
+
+Login authentication screen
+
+Password input field (mandatory)
+
+Email input field (mandatory)
+
+Session management system
+
+Logout option
+
+Access control/role verification (Admin/User)
+
+Error message display (invalid login / unauthorized access)
+
+Security alert / blocked access screen
+
+ 
+
+As an admin, I want to ensure system security so that all user data and system functions are protected from unauthorized access.
+
+ 
+
+When authentication data (email/password) is invalid and access is unauthorized, the system should deny access and show a validation error.
+
+When authentication data is invalid but access is attempted, the system should block login and display appropriate error messages.
+
+When authentication data is valid but access is unauthorized due to role restrictions, the system should prevent access and show an authorization error.
+
+When authentication data is valid and access is authorized, the system should grant secure access to the admin dashboard.
+
+
