@@ -1,0 +1,21 @@
+FR-Applicant-The applicant should be able to search universities so that they can find suitable institutions easily.
+
+Search Functionality [Applicant]
+DESCRIPTION:
+Search bar
+Search button
+Filter panel
+Filter options
+Apply filter button
+Reset filter button
+Search results list
+No results found message
+As a user, I want to search data so that I can find relevant information.
+When the search keyword is invalid, no filter is applied, and no matching data exists, the system must show an error or “no results found” message.
+When the search keyword is invalid, no filter is applied, but matching data exists, the system must still show “no results found” due to invalid input.
+When the search keyword is valid, no filter is applied, and no matching data exists, the system must show “no results found”.
+When the search keyword is valid, no filter is applied, and matching data exists, the system must display relevant search results.
+When the search keyword is valid, a filter is applied, and no matching data exists, the system must show filtered “no results found” message.
+When the search keyword is valid, a filter is applied, and matching data exists, the system must display filtered and relevant results.
+When the search keyword is invalid, a filter is applied, and no matching data exists, the system must show no results found with filter applied.
+When the search keyword is invalid, a filter is applied, and matching data exists, the system must ignore invalid input and show no results or prompt correction.Bottom of Form

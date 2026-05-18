@@ -1,0 +1,17 @@
+NFR-Applicant - The system should ensure strong security so that user data, credentials, and personal information remain protected from unauthorized access.
+
+Security [Applicant]
+DESCRIPTION:
+Login screen
+Password input field
+Error message display
+Session expired message screen
+Logout option
+Security alert message (optional)
+
+As a user, I want my account to be secure so that my personal information is protected from unauthorized access.
+
+When credentials are invalid, and the session has expired, the system must deny access and show a login error message.
+When credentials are invalid, but the session is active, the system must show a validation error and not allow access to protected features.
+When credentials are valid, but the session has expired, the system must require the user to log in again.
+When credentials are valid and the session is active, the system must allow secure access to the system.

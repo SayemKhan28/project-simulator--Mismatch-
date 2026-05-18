@@ -1,0 +1,17 @@
+FR-Applicant - The applicant should be able to compare universities so that they can choose the best option based on their requirements.
+
+Compare Data [Applicant]
+DESCRIPTION:
+Selection panel (items/universities selection)
+Compare page
+Comparison table view
+Result display screen
+Selected items list
+Back button
+
+As a user, I want to compare items so that I can choose the best option.
+
+When no items are selected and no comparison data is available, the system must show an empty selection message and not display the comparison table.
+When no items are selected but comparison data exists, the system must not display results and must prompt the user to select items.
+When items are selected but no comparison data is available, the system must show a message indicating comparison cannot be generated.
+When items are selected and comparison data is available, the system must display the comparison table with results correctly.

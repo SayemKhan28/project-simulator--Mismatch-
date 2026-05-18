@@ -1,0 +1,15 @@
+FR-Applicant- The applicant should be able to log out so that their account remains secure after use.
+
+Logout [Applicant]
+DESCRIPTION:
+Logout button / option
+Confirmation popup (Yes / No)
+Session end screen
+Redirect to login page
+
+As a user, I want to log out so that my account stays secure .
+
+When the user does not click the logout button and the session does not end, the system must keep the user logged in.
+When the user does not click the logout button but the session ends unexpectedly, the system must redirect the user to login or session expired screen.
+When the user clicks logout but the session fails to end, the system must show an error and keep the user logged in.
+When the user clicks logout and the session ends successfully, the system must log the user out and redirect to the login page.

@@ -1,0 +1,16 @@
+NFR-Applicant -The system should ensure high availability so that the user can access the platform anytime with minimal downtime.
+
+Availability [Applicant]
+DESCRIPTION:
+System access page (home/login entry screen)
+Service availability message (online/offline notice)
+Maintenance page screen
+Retry/refresh button
+Error message display
+
+As a user, I want the system to be available at all times so that I can access it whenever I need.
+
+When the system is offline and the user requests access during normal time, the system must show a downtime or error message.
+When the system is offline and the user requests access during maintenance time, the system must show a maintenance page.
+When the system is online and the user requests access during maintenance time, the system must still show service availability restrictions if maintenance is active.
+When the system is online and the user requests access during normal time, the system must allow full access to all features.

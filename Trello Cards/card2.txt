@@ -1,0 +1,15 @@
+FR-Applicant - The applicant should be able to log in so that they can access system features securely.
+
+User Login [Applicant]
+DESCRIPTION:
+SCREEN DEFINATION:
+Login Form
+Email
+Password
+USER STORY:
+As a user, I want to login so that I can access the system features.
+ACCEPTANCE CRITERIA:
+When the email is invalid and the password is invalid, the system must show validation errors for both email and password.
+When the email is invalid and the password is valid, the system must show an email validation error only.
+When the email is valid and the password is invalid, the system must show a password validation error only.
+When the email is valid and the password is valid, the system must successfully log the user in and redirect to the dashboard.

@@ -1,0 +1,16 @@
+NFR-Applicant - The system should ensure scalability so that it can handle increasing numbers of users and data without performance degradation.
+
+Scalability [Applicant]
+DESCRIPTION:
+User dashboard (main access screen)
+Data loading/results display section
+Loading indicator (when traffic is high)
+System load handling message (optional)
+Error/fallback screen (if overload occurs)
+
+As a user, I want the system to handle increasing users and data smoothly so that performance remains stable even when usage grows.
+
+When system load is high, and the number of users is high, the system must maintain stable performance or show controlled loading behavior.
+When system load is high, but the number of users is low, the system must still operate without failure or delay.
+When system load is normal, but the number of users is high, the system must scale resources to handle increased traffic.
+When the system load is normal, and the number of users is low, the system must run smoothly with optimal performance.

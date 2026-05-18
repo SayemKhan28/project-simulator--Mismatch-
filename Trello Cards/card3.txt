@@ -1,0 +1,23 @@
+FR-Applicant - The applicant should be able to manage and update their profile so that their academic and personal information remains accurate
+
+Profile Management [Applicant]
+DESCRIPTION:
+Full Name
+Emai
+SSC GPA
+HSC GPA
+SSC Marksheet upload option
+HSC Marksheet upload option
+Profile photo upload option (optional)
+Save / Update Profile button
+Edit Profile button
+Profile completion status indicator (optional)
+As a user, I want to create and update my profile by providing my personal information, academic results, and required documents so that the system can verify my details and determine my eligibility for university admission.
+When SSC GPA is invalid, HSC GPA is invalid, SSC marksheet is not uploaded, and HSC marksheet is not uploaded, the system must show all validation errors.
+When SSC GPA is invalid, HSC GPA is invalid, SSC marksheet is uploaded, and HSC marksheet is not uploaded, the system must show GPA errors for both SSC and HSC.
+When SSC GPA is invalid, HSC GPA is valid, SSC marksheet is not uploaded, and HSC marksheet is not uploaded, the system must show SSC GPA error only.
+When SSC GPA is valid, HSC GPA is invalid, SSC marksheet is not uploaded, and HSC marksheet is not uploaded, the system must show HSC GPA error only.
+When both SSC GPA and HSC GPA are valid, but both marksheets are not uploaded, the system must show document upload required errors.
+When SSC GPA and HSC GPA are valid, SSC marksheet is uploaded, and HSC marksheet is not uploaded, the system must show HSC marksheet missing error.
+When SSC GPA and HSC GPA are valid, SSC marksheet is not uploaded, and HSC marksheet is uploaded, the system must show SSC marksheet missing error.
+When SSC GPA, HSC GPA, SSC marksheet, and HSC marksheet are all valid and uploaded, the system must successfully save the profile and mark it as complete for eligibility checking.

@@ -1,0 +1,17 @@
+NFR-Applicant - The system should provide good usability so that the user can easily navigate and complete tasks without confusion
+
+Usability [Applicant]
+DESCRIPTION:
+Clear navigation menu
+Consistent layout across pages
+Readable text and labels
+Button labels (clear and understandable)
+Help messages (optional)
+Error message display
+
+As a user, I want the system to be easy to use so that I can navigate and complete tasks without confusion.
+
+When the interface is unclear and navigation is difficult, the system must show poor usability and may confuse the user.
+When the interface is unclear, but navigation is easy, the system must still allow task completion with some confusion.
+When the interface is clear, but navigation is difficult, the system must show usability issues in movement between features.
+When the interface is clear and navigation is easy, the system must allow smooth and user-friendly interaction.
