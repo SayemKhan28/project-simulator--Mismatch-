@@ -1,0 +1,37 @@
+FR-Admin - The admin can set and update application deadlines for public & private universities.
+
+Manage Admission Deadlines & Exam Dates
+
+[Admin]
+
+
+
+
+
+University name display (mandatory, non-editable)
+
+Application deadline input field (mandatory)
+
+Admission exam date input field (mandatory)
+
+Save / Update button
+
+Cancel / back button
+
+Success/error message display
+
+
+
+As an admin, I want to manage admission deadlines and exam dates so that students receive accurate and updated admission schedules.
+
+
+
+
+
+When the input data (deadline and exam date) is invalid and the update action is unsuccessful, the system should show validation errors and must not update the schedule.
+
+When the input data is invalid but the update is attempted, the system should prevent the update and display appropriate error messages.
+
+When the input data is valid but the update action fails due to a system issue, the system should show an error message and must not change the existing schedule.
+
+When the input data is valid and the update action is successful, the system should update the admission deadlines and exam dates and show a success message.

@@ -1,0 +1,44 @@
+FR-Admin - The  admin should be able to  add, update and delete private university records
+Manage Private Universities
+
+[Admin]
+
+ 
+
+University name input field (mandatory)
+
+Location input field (mandatory)
+
+Tuition fee/budget input field (mandatory)
+
+Available departments input field (mandatory)
+
+Application deadline input field (mandatory)
+
+Admission exam date input field (optional)
+
+Scholarship information field (optional)
+
+University description field (optional)
+
+Add button
+
+Edit button
+
+Delete button
+
+University list display
+
+ 
+
+As an admin, I want to add, edit, and delete private university information so that I can manage and keep the data updated.
+
+ 
+
+When the input data (mandatory fields) is invalid, and the action (add/edit/delete) is unsuccessful, the system should show validation errors and must not perform the action.
+
+When the input data (mandatory fields) is invalid, but the action is attempted, the system should prevent the operation and display appropriate error messages.
+
+When the input data (mandatory fields) is valid but the action fails due to a system issue, the system should show an error message and must not update the data.
+
+When the input data (mandatory fields) is valid and the action (add/edit/delete) is successful, the system should update the university list and display a success message.

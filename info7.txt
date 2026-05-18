@@ -1,0 +1,41 @@
+FR-Admin - The  admin can view the dashboard overview so that the Admin can see a summary of system activities and statistic
+
+Edit
+Dashboard Overview (View system summary)
+
+[Admin]
+
+ 
+
+Total number of users display
+
+Total number of applicants display
+
+Total public universities count
+
+Total private universities count
+
+Recent applications summary section
+
+Recent notifications summary section
+
+Quick navigation buttons (Users / Universities / Notifications / Applications)
+
+System activity summary panel
+
+Refresh / reload button
+
+Back / logout option
+
+As an admin, I want to view a dashboard overview so that I can understand the overall system activity and summary.
+
+ 
+
+When mandatory system data is not available and dashboard loading is unsuccessful, the system should show an error or empty state message.
+
+When mandatory system data is not available but dashboard loads successfully, the system should display zero or empty values correctly.
+
+When mandatory system data is available but dashboard fails to load, the system should show an error message and must not display partial or corrupted data.
+
+When mandatory system data is available and dashboard loads successfully, the system should display a complete and accurate system overview.
+

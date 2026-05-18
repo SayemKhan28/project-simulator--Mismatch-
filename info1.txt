@@ -1,0 +1,40 @@
+FR-Admin - The  Admin can add, update and delete public university records.
+Manage Public Universities (Add / Edit / Delete)
+
+[Admin]
+
+University name input field (mandatory)
+
+Location input field (mandatory)
+
+Admission requirements input field (mandatory)
+
+Application deadline input field (mandatory)
+
+Admission exam date input field (mandatory)
+
+University description field (optional)
+
+Add button
+
+Edit button
+
+Delete button
+
+University list display
+
+Success/error message display
+
+As an admin, I want to add, edit, and delete public university information so that I can manage and keep the data updated.
+
+ 
+
+When the input data (mandatory fields) is invalid and the action (add/edit/delete) is unsuccessful, the system should show validation errors and not perform the action.
+
+When the input data (mandatory fields) is invalid but the action is attempted, the system should prevent the operation and display appropriate error messages.
+
+When the input data (mandatory fields) is valid, but the action fails due to a system error, the system should show an error message and not update the data.
+
+When the input data (mandatory fields) is valid, and the action (add/edit/delete) is successful, the system should update the university list and show a success message.
+
+

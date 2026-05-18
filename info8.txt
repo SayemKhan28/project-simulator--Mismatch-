@@ -1,0 +1,36 @@
+NFR-Admin - The system should ensure data integrity so that all stored information remains accurate, consistent, and free from unauthorized or invalid modifications.
+
+Data Integrity
+
+[Admin]
+
+ 
+
+User data records (name, email, role) (mandatory system data)
+
+University data records (public/private details) (mandatory system data)
+
+Application records (history, status, activity logs) (mandatory system data)
+
+Notification records (messages, status) (mandatory system data)
+
+Edit/update controls
+
+Delete controls
+
+Data validation messages
+
+Audit log/change history (optional)
+
+Error messages
+
+As an admin, I want to ensure data integrity so that all stored information remains accurate, consistent, and reliable across the system.
+
+When data is inconsistent and the operation is unsuccessful, the system should show a validation or conflict error and must not update the records.
+
+When data is inconsistent but an operation is attempted, the system should prevent changes and display appropriate error messages.
+
+When data is consistent but the operation fails due to a system issue, the system should show an error message and must not corrupt existing records.
+
+When data is consistent and the operation is successful, the system should correctly update all related records while maintaining consistency across the system.
+

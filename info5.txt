@@ -1,0 +1,43 @@
+FR-Admin - The Admin can view applicants so that the Admin can monitor all registered users in the system
+
+Manage Applicants (View/Add/Remove users)
+
+[Admin]
+
+ 
+
+Applicant name (mandatory for add)
+
+Applicant email (mandatory for add)
+
+Applicant password / ID (optional depending on system)
+
+Applicant list display
+
+View details button
+
+Add applicant button
+
+Remove applicant button
+
+Search applicant field (optional)
+
+Success/error message display
+
+Back/dashboard button
+
+ 
+
+As an admin, I want to manage applicants so that I can view, add, or remove users from the system.
+
+ 
+
+When the applicant data (mandatory fields: name and email) is invalid and the action is unsuccessful, the system should show validation errors and must not perform any operation.
+
+When the applicant data is invalid but the action is attempted, the system should prevent the operation and display appropriate error messages.
+
+When the applicant data is valid but the action fails due to a system issue, the system should show an error message and must not update the applicant list.
+
+When the applicant data is valid and the action (view/add/remove) is successful, the system should update the applicant list and show the correct data.
+
+
